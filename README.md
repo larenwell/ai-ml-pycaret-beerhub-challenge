@@ -1,5 +1,9 @@
-# ds-ml-pycaret-credit-card-approval-challenge
-Improving Credit Card Approval Predictions Use Case
+# ds-ml-beer-challenge
+Este repositorio contiene dos casos de análisis:
+- Caso de Análisis: Solicitud de tarjeta de crédito
+- Caso de Análisis: Tasa de Crimen
+
+Previamente se debe configurar el entorno de desarrollo.
 
 Instalación pycaret sobre python 3.9
 
