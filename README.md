@@ -1,5 +1,65 @@
 # ds-ml-beer-challenge
 
+## Project Description
+This project focuses on developing and evaluating machine learning models for various tasks related to the BeerHub use case. The primary tools used in this project include PyCaret, LightGBM, and various Python libraries.
+
+### Analysis Cases
 This repository contains two analysis cases:
-- Credit card application: A classification model is built with a binary target that allows predicting whether a credit card application should be approved or not.
-- Crime Rate: It is requested to build a regression model to predict the crime rate.
+
+1. **Credit Card Application**:
+   - **Objective**: Build a classification model with a binary target that predicts whether a credit card application should be approved or not.
+   - **Notebook**: `credito_model.ipynb`
+
+2. **Crime Rate**:
+   - **Objective**: Build a regression model to predict the crime rate.
+   - **Notebook**: `crimen_model.ipynb`
+
+## Configuration
+To set up the environment for this project, follow the steps below:
+
+### Step 0: Install Homebrew (if not already installed)
+
+1. Open your terminal (outside of your environment) and run the following command to install Homebrew:
+    ```bash
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
+
+2. Add Homebrew to your PATH:
+    ```bash
+    nano ~/.zshrc
+    export PATH="/usr/local/bin:/opt/homebrew/bin:$PATH"
+    ```
+
+3. Reload your shell configuration:
+    ```bash
+    source ~/.bash_profile  # or source ~/.zshrc, depending on your shell
+    ```
+
+### Step 1: Set Up Your Virtual Environment
+
+1. Activate your virtual environment:
+    ```bash
+    conda activate myenv
+    ```
+
+2. Install the required libraries using 'brew' and 'pip':
+    ```bash
+    brew install libomp
+    ```
+
+3. After installing libomp, export the necessary environment variables for LightGBM:
+    ```bash
+    nano ~/.zshrc
+    export CMAKE_ARGS="-DOpenMP_C_FLAGS=-Xpreprocessor\ -fopenmp\ -I$(brew --prefix libomp)/include -DOpenMP_C_LIB_NAMES=omp -DOpenMP_CXX_FLAGS=-Xpreprocessor\ -fopenmp\ -I$(brew --prefix libomp)/include -DOpenMP_CXX_LIB_NAMES=omp -DOpenMP_omp_LIBRARY=$(brew --prefix libomp)/lib/libomp.dylib"
+    ```
+
+4. Install the LightGBM library:
+    ```bash
+    pip install lightgbm
+    ```
+
+## Installation
+
+To install the required dependencies, run:
+```bash
+pip install -r requirements.txt
