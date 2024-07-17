@@ -63,3 +63,16 @@ To set up the environment for this project, follow the steps below:
 To install the required dependencies, run:
 ```bash
 pip install -r requirements.txt
+```
+
+## Usage
+To run the models and analyses, use the provided Jupyter notebooks:
+
+- `credito_model.ipynb`: Credit model analysis and training
+- `crimen_model.ipynb`: Crime model analysis and training
+
+## Contribution
+Contributions are welcome! Please submit a pull request or open an issue to discuss any changes.
+
+Feel free to further customize this `README.md` file to fit your specific needs.
+
