@@ -17,9 +17,9 @@ This repository contains two analysis cases:
 ## Configuration
 To set up the environment for this project, follow the steps below:
 
-### Step 0: Install Homebrew (if not already installed)
+### Step 1: Install Homebrew (if not already installed) outside of your development environment
 
-1. Open your terminal (outside of your environment) and run the following command to install Homebrew:
+1. Open your terminal (outside of your development environment) and run the following command to install Homebrew:
     ```bash
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
@@ -35,9 +35,9 @@ To set up the environment for this project, follow the steps below:
     source ~/.bash_profile  # or source ~/.zshrc, depending on your shell
     ```
 
-### Step 1: Set Up Your Virtual Environment
+### Step 2: Set Up Your Virtual Environment within your development tool
 
-1. Activate your virtual environment:
+1. Activate your virtual environment within your development tool
     ```bash
     conda activate myenv
     ```
@@ -58,7 +58,7 @@ To set up the environment for this project, follow the steps below:
     pip install lightgbm
     ```
 
-## Installation
+## Installation of required dependencies.
 
 To install the required dependencies, run:
 ```bash
