@@ -58,7 +58,7 @@ To set up the environment for this project, follow the steps below:
     pip install lightgbm
     ```
 
-## Installation of required dependencies.
+### Step 3: Installation of required dependencies.
 
 To install the required dependencies, run:
 ```bash
