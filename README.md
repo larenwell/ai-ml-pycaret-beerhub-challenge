@@ -1,7 +1,7 @@
 # ds-ml-beer-challenge
 
 ## Project Description
-This project focuses on developing and evaluating machine learning models for various tasks related to the BeerHub use case. The primary tools used in this project include PyCaret, LightGBM, and various Python libraries.
+This project focuses on the development and evaluation of machine learning models to predict credit card application and crime rate. The primary tools used in this project include PyCaret, LightGBM, and various Python libraries.
 
 ### Analysis Cases
 This repository contains two analysis cases:
