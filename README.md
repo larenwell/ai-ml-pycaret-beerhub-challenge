@@ -1,5 +1,5 @@
 # ds-ml-beer-challenge
 
-Este repositorio contiene dos casos de análisis:
-- Solicitud de tarjeta de crédito: Se construye un modelo de clasificación con target binario que permita predecir si la solicitud para el uso de una tarjeta de crédito debe ser aprobada o no.
-- Tasa de Crimen: Se solicita construir un modelo de regresión para predecir la tasa de crimen.
+This repository contains two analysis cases:
+- Credit card application: A classification model is built with a binary target that allows predicting whether a credit card application should be approved or not.
+- Crime Rate: It is requested to build a regression model to predict the crime rate.
